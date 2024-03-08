@@ -1,3 +1,10 @@
 from us_visa.logger import logging
+from us_visa.exception import USvisaException
+import sys
 
-logging.info("welcome to our custom logging module")
+
+from us_visa.pipline.training_pipeline import TrainPipeline
+
+
+pipline  = TrainPipeline()
+pipline.run_pipeline()
