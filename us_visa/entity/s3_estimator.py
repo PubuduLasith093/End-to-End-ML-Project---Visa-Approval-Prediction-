@@ -16,7 +16,9 @@ class USvisaEstimator:
         :param model_path: Location of your model in bucket
         """
         self.bucket_name = bucket_name
+        print(self.bucket_name)
         self.s3 = SimpleStorageService()
+        print('after simplestorageservice function')
         self.model_path = model_path
         self.loaded_model:USvisaModel=None
 

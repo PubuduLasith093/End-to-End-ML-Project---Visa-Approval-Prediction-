@@ -102,6 +102,8 @@ class USvisaClassifier:
         This is the method of USvisaClassifier
         Returns: Prediction in string format
         """
+        print('bucket_name', self.prediction_pipeline_config.model_bucket_name)
+        print('bucket_name', self.prediction_pipeline_config.model_file_path)
         try:
             logging.info("Entered predict method of USvisaClassifier class")
             model = USvisaEstimator(
