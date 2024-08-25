@@ -79,7 +79,7 @@ async def trainRouteClient():
         return Response(f"Error Occurred! {e}")
 
 
-@app.post("/predict")
+@app.post("/invocations")
 async def predictRouteClient(request: Request):
     try:
         input_data = await request.json()
