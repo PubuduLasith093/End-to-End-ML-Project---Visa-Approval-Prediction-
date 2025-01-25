@@ -31,7 +31,7 @@ python app.py
 ---
 
 ## 🔄 Workflow
-📝 constant
+**📝 constant**
 ⚙️ config_entity
 📦 artifact_entity
 🛠️ component
