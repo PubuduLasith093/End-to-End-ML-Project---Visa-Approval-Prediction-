@@ -1,5 +1,18 @@
 # 🌟 End-to-End ML Project (Visa-Approval-Prediction)
 
+## 🛠️ Tech Stack
+✨ **Technologies Used**:  
+- 🐍 **Python**  
+- 🐋 **Docker**  
+- 🤖 **GitHub Actions**  
+- ☁️ **AWS (EC2, ECR)**  
+- 🍃 **MongoDB**  
+- 📊 **Evidently**  
+- ⚡ **FastAPI**  
+- 📈 **Scikit-learn**
+
+---
+
 ## 🛠️ Git Commands
 ```bash
 git add .
