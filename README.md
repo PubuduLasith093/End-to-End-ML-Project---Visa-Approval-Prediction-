@@ -1,4 +1,4 @@
-# 🌟 US-Visa-Approval-Prediction
+# 🌟 End-to-End ML Project (Visa-Approval-Prediction)
 
 ## 🛠️ Git Commands
 ```bash
