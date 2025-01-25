@@ -60,9 +60,15 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
    - 🖥️ **EC2 Access**: For managing virtual machines.  
    - 📦 **ECR**: Elastic Container Registry to store Docker images.
 
-3️⃣ **Create ECR Repository**
-4️⃣ **Create EC2 Machine (Ubuntu)**
-5️⃣ **Install Docker in EC2 Machine**
+3️⃣ **Create ECR Repository**  
+   Create a repository in ECR to store your Docker images.  
+
+4️⃣ **Create EC2 Machine (Ubuntu)**  
+   Launch an EC2 instance with Ubuntu as the operating system.  
+
+5️⃣ **Install Docker in EC2 Machine**  
+   Install Docker on the EC2 machine to manage containerized applications.  
+
 
 ```bash
 sudo apt-get update -y
