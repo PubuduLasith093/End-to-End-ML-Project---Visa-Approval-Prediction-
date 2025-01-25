@@ -81,4 +81,23 @@ newgrp docker
 6️⃣ **Configure EC2 as Self-Hosted Runner**
 - Navigate to: Settings > Actions > Runners > New self-hosted runner
 - Choose OS and follow the commands step-by-step.
+  
+7️⃣ **Setup GitHub Secrets**
+Add the following secrets in your repository:
+
+-🔑 AWS_ACCESS_KEY_ID
+-🔑 AWS_SECRET_ACCESS_KEY
+-🌍 AWS_DEFAULT_REGION
+-📦 ECR_REPO
+
+## 💡 Deployment Workflow Overview
+- 1. 🛠️ Build the Docker image of the source code.
+- 2. 📤 Push the Docker image to ECR.
+- 3. 🖥️ Launch the EC2 instance.
+- 4. 📥 Pull the image from ECR on EC2.
+- 5. 🚀 Run the Docker container on EC2.
+ 
+## 🔐 IAM Policies Required:
+- 📦 AmazonEC2ContainerRegistryFullAccess
+- 🖥️ AmazonEC2FullAccess
 
