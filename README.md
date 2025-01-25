@@ -31,12 +31,12 @@ python app.py
 ---
 
 ## 🔄 Workflow
-*📝 constant*
-*⚙️ config_entity*
-📦 artifact_entity
-🛠️ component
-🔗 pipeline
-🚀 app.py / demo.py
+- *📝 constant*
+- *⚙️ config_entity*
+- 📦 artifact_entity
+- 🛠️ component
+- 🔗 pipeline
+- 🚀 app.py / demo.py
 
 ## 🌐 Export Environment Variables
 
