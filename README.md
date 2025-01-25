@@ -37,7 +37,6 @@ python app.py
 🛠️ component
 🔗 pipeline
 🚀 app.py / demo.py
----
 
 ## 🌐 Export Environment Variables
 
