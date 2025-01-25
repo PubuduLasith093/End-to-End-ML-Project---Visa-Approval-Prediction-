@@ -49,5 +49,5 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
 ## 📦 AWS-CICD-Deployment-with-Github-Actions
 
-🏁 Steps:
-- 1️⃣ Login to AWS Console
+🏁 Steps: <br>
+1️⃣ Login to AWS Console
