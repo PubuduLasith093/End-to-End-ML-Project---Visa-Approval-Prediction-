@@ -49,11 +49,15 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
 ## 📦 AWS-CICD-Deployment-with-Github-Actions
 
-🏁 Steps: <br>
-1️⃣ Login to AWS Console
+### 🏁 Steps:
 
-2️⃣ Create IAM User for Deployment <br>
-Permissions Needed: <br>
+1️⃣ **Login to AWS Console**  
+   Navigate to your AWS account and sign in.  
 
-🖥️ EC2 Access: For managing virtual machines. <br>
-📦 ECR: Elastic Container Registry to store Docker images.
+---
+
+2️⃣ **Create IAM User for Deployment**  
+   **Permissions Needed:**  
+   - 🖥️ **EC2 Access**: For managing virtual machines.  
+   - 📦 **ECR**: Elastic Container Registry to store Docker images.  
+
