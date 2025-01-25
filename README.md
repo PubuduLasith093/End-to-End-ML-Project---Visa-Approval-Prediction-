@@ -51,3 +51,9 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
 🏁 Steps: <br>
 1️⃣ Login to AWS Console
+
+2️⃣ Create IAM User for Deployment <br>
+Permissions Needed: <br>
+
+🖥️ EC2 Access: For managing virtual machines. <br>
+📦 ECR: Elastic Container Registry to store Docker images.
